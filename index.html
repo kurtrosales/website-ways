@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MIIRACELL+</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: greenyellow;">
+    <section>
+        <div class="banner">
+            <div class="navbar">
+            <img src="images/bg_2-removebg-preview.png" class="logo">
+            </div>
+        </div>
+    <div class="content">
+         <h1>MADE FOR THE BEST</h1>
+         <p>Prevention is much better than Hospital and Doctors Bill!</p>
+                 <div>
+                    <button type="button"><span></span>WATCH MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#Features">FEATURES</a></li>
+                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                <li><a href="#footer">CONTACT US</a></li>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="images/menu2.png" id="menu">
+    </div>
+
+    <!--Features-->
+
+    <section id="feature">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>Why Choose us</h1>
+        </div>
+            <div class="feature-box">
+                <div class="feature">
+                    <h1> Affordable Cost </h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-shield"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>MIIRACELL+ is a stem cell product, super nutrient and organic product that cures incurable diseases. It works on cellular level, it has the ability to enter into any tissue in the body, and repair damaged cells, activate dormant cells and regenerate new cells. Bringing the body to normal functionality, as you are treating one disease, you are treating all the diseases in the body. The main ingredients in our product is the green apple the came from Switzerland. There are 3 types of stem cell therapy, human stem cell therapy, and our product plant based stem cell therapy. Compared to other stem cell therapies our product is the cheapest stem cell therapy because of its price. Human stem cell therapy cost millions and millions, while animal stem cell therapy costs about a hundred thousand pesos, and our product only costs only about thousands. </p>
+                        </div>                        
+                    </div>
+                    <h1> Helping is a Must! </h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-shield"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>Become a part of the world revolution where everyone is responsible for their own health and contributes to the health of their families and communities.
+
+                                Provides best digital opportunities for all members to run their own business and enable them to improve their financial.
+                            </p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--testimonials  --->
+
+    <Section id="testimonials">
+        <div class="title-text">
+            <p>TESTIMONIALS</p>
+            <h1>Prevention is Better</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="images/hq.jpg">
+                <div class="overlay"></div>
+            </div>
+            <div class="single-service">
+                <img src="images/bussi.jpg">
+                <div class="overlay"></div>
+            </div>
+            <div class="single-service">
+                <img src="images/live.jpg">
+                <div class="overlay"></div>
+            </div>
+            <div class="single-service">
+                <img src="images/natu supp..jpg">
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </Section>
+
+    <!--footer-->
+
+    <section id="footer">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Us</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening hours</h1>
+                <p>Monday to Friday - 6am to 10pm</p>
+                <p>Saturday to Sunday - 4am to 12am</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get in Touch</h1>
+                <p>Villacarmen, Taytay,Rizal,Manila</p>
+                <p>rosaleskurtzeus8@gmail.com</p>
+                <p>+63 956-041-6641</p>
+            </div> 
+        </div>
+    </section>
+
+
+
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+
+        sidenav.style.right = "-250px";
+
+        menubtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+                menu.src = "images/closeicon.jpg"
+            }
+            else{
+                sidenav.style.right = "-250px";
+                menu.src = "images/menu2.png"
+            }
+        }
+    </script>
+
+ 
+   
+</body>
+</html>
